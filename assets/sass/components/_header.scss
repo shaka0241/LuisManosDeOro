@@ -1,0 +1,8 @@
+.header {
+    &__name{
+        font-size: $title-size-xl;
+        text-align: center;
+        border: 2px solid $color-primary;
+        padding: 10px;
+    }
+}
