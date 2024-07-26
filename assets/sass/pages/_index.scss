@@ -1,0 +1,26 @@
+.main {
+    width: 80%;
+    margin-top: -0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__description {
+    text-align: center;
+    max-width: 90%;
+    padding-bottom: 0.8rem;
+}
+.main__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 625px) {
+    .main__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+}

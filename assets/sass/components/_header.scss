@@ -1,8 +1,14 @@
 .header {
+    width: 80%;
     &__name{
+        background-color: $color-secundary;
+        padding: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: $title-size-xl;
+        font-weight: normal;
         text-align: center;
         border: 2px solid $color-primary;
-        padding: 10px;
+        border-radius: 0.8rem;
+        
     }
 }
