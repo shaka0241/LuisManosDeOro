@@ -3,4 +3,30 @@
   text-align: center;
   border: 2px solid red;
   padding: 10px;
+}
+
+.section-plate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-plate__title {
+  color: green;
+}
+
+.section-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-socials__title {
+  color: purple;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }/*# sourceMappingURL=main.css.map */

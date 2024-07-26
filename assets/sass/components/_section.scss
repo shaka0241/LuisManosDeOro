@@ -1,0 +1,27 @@
+.section-plate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+&__title {
+    color:$color-text;
+}
+
+}
+    .section-socials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__title {
+            color:$color-text2;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
