@@ -1,8 +1,12 @@
 .header {
+    width: 80%;
+    margin: 0 auto;
     &__name{
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: $title-size-xl;
         text-align: center;
         border: 2px solid $color-primary;
-        padding: 10px;
+        
     }
 }
