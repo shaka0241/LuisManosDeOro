@@ -3,4 +3,14 @@
   text-align: center;
   border: 2px solid red;
   padding: 10px;
+}
+
+.section-plate, .section-socials {
+  text-align: center;
+}
+.section-plate__ulist, .section-socials__ulist {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+.section-plate, .section-socials{
+    text-align: center;
+    &__ulist{
+        margin: 3rem;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+}
