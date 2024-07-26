@@ -1,0 +1,17 @@
+.list {
+    width: 12rem;
+    background-color: rgb(236, 236, 236);
+    padding: 1rem;
+    border: 2px solid $color-primary;
+    border-radius: 1.8rem;
+
+}
+.list__title {
+    font-family: $font-pacific;
+    font-size: 1.6rem;
+    font-weight: regular;
+    text-align: center;
+}
+.list__li {
+    list-style: none;
+}
