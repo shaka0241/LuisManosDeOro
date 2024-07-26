@@ -1,7 +1,14 @@
 .header {
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 80%;
+    border: 1px solid;
     &__name{
         font-size: $title-size-xl;
-        text-align: center;
+        // text-align: center;
         border: 2px solid $color-primary;
         padding: 10px;
     }
