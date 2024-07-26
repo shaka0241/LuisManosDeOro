@@ -1,6 +1,64 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  width: 80%;
+  border: 1px solid;
+}
 .header__name {
   font-size: 48px;
-  text-align: center;
   border: 2px solid red;
   padding: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.details__socials--title, .details__plate--title {
+  color: red;
+}
+.details__plate--ulist, .details__socials--ulist {
+  list-style: none;
+}
+.details__plate--ulist {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.details__plate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.details__plate--li, .details__socials--li {
+  font-weight: bold;
+  margin: 10px;
+}
+.details__plate--li {
+  color: pink;
+}
+.details__socials {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  right: auto;
+}
+.details__socials--li {
+  color: lightblue;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
