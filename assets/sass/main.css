@@ -1,0 +1,16 @@
+.header__name {
+  font-size: 48px;
+  text-align: center;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.section-plate {
+  background-color: rgb(156, 156, 226);
+}
+.section-plate__title {
+  font-size: 30px;
+}
+.section-plate__ulist {
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
