@@ -8,3 +8,45 @@
 
 @import 'abstracts/variables';
 @import 'components/header';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Made by: Lorena Alarcón, Samuel Bustamante y Diego Moran */
+
+*,
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+
+    &__plate,
+    &__socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+
+
+.section-plate__title,
+.section-socials__title {
+    background-color: $section-title;
+    padding: 1.5rem 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
