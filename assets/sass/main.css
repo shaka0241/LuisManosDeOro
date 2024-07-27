@@ -1,0 +1,38 @@
+.header__name {
+  font-size: 48px;
+  text-align: center;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.section-plate {
+  display: flex;
+  color: chocolate;
+}
+.section-plate__title {
+  font-size: 30px;
+}
+.section-plate__ulist {
+  font-size: 30px;
+}
+
+.section-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  background-color: white;
+  color: coral;
+}
+.section-socials__title {
+  color: green;
+  font-size: 30px;
+}
+.section-socials__ulist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  gap: 5rem;
+  padding: 15px;
+  margin: 15px;
+}/*# sourceMappingURL=main.css.map */
