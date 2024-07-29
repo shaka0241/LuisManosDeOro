@@ -2,11 +2,10 @@
     background-color: $bg-color-secondary;
     width: 90%;
     height: 220px;
-    margin: 0 auto;
+    margin: 0 auto 20px 0;
     border: 1px solid $bg-color-secondary;
     border-radius: 20px;
     text-align: center;
-    margin-bottom: 20px;
     &__title {
         font-size: $title-size-l;
     }
